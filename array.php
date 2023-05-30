@@ -1,12 +1,12 @@
 <?php
-echo "Normal Array: <br/>";
+echo "<p style='font-size:20px;font-weight:bold;font-style:italic;margin-bottom:5px'>Normal Array:</p> ";
 $names = array('Shahidul', 'Masum', 'Faisal', 'Saikat');
 
 echo "Names are: " . $names[2] . " and " . $names[0] . "<br/><br/>";
-echo $names[0]. "<br/>";
+print_r($names);
 
 
-echo "Associative Array: <br/>";
+echo "<p style='font-size:20px;font-weight:bold;font-style:italic;margin-bottom:5px'>Associative Array:</p> ";
 $name = array(
     'First_Name' => 'Shahidul',
     'Last_Name' => 'Islam',
@@ -17,7 +17,7 @@ echo "My name is: " . $name['First_Name'] . " " . $name['Last_Name'] ."<br/>";
 echo "My age is: " . $name['Age'] . "<br/><br>";
 
 
-echo "<p style='font-size:20px;font-weight:bold;font-style:italic;margin-bottom:0'>Multidimansional Arrays</p><br/>";
+echo "<p style='font-size:20px;font-weight:bold;font-style:italic;margin-bottom:5px'>Multidimansional Arrays</p>";
 $cars = array(
     'Suzuki',
     'bmw' => [
